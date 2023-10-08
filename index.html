@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAAM'S CHILD SAFETY - EASY GUIDE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header" id="header">
+      <nav>
+        <a href="index.html"><img src="Images/JAAMlogo.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#header">ABOUT</a></li>
+            <li><a href="#Purpose">GUIDELINES</a></li>
+            <li><a href="#Resources">RESOURCE</a></li>
+            <li><a href="#Contacts">CONTACTS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>JAAM'S SAFETY GUIDE</h1>
+        <p class="p1">
+          Child saftey is an important factor in a parents decision to live a
+          normal life.
+        </p>
+        <a
+          href="https://discord.gg/jPmcYJW5"
+          target="__blank__"
+          class="Discord-btn"
+          >Visit our Discord For More</a
+        >
+      </div>
+    </section>
+    <!--- Purpose --->
+
+    <section class="Purpose" id="Purpose">
+      <h1>JAAM's Purpose</h1>
+      <p>
+        Provide an online resource information site for not only
+        parents/gaurdians but for kids who are in need for baseline safety out
+        in the world outside their home
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>SAFETY GUIDELINES</h3>
+          <p>
+            Our goal as JAAM is to minimize potential risk level of child
+            endangerment. As statistics show the worst-possible outcomes due the
+            lack of child protection. Provisions of safey tips for
+            parental/child/Adolescence that will increase child protection
+            anywhere.
+          </p>
+        </div>
+        <img class="ImgGuide" src="Images/GUIDE2.jpg" />
+        <div class="course-col">
+          <h3>Resources</h3>
+          <p>
+            We provide additional resource information via links that we advise
+            parents and adolescence to take the time to review and learn safety
+            mechanisms that will reduce risk of potential child endangerment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="guide">
+        <ul>
+          <li>Parents, teach your kids the rules of avoiding strangers</li>
+          <li>Incorporate curphew discpline for your children</li>
+          <li>
+            Supply your kids with emergency contanct-only cellular devices
+          </li>
+          <li>
+            Import personal tracking device for potential high risk scenario
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="Resources" id="Resources">
+      <h1>Additional Information</h1>
+      <p>
+        We have additional resourceful links that contain more safety guidelines
+        on child protection
+      </p>
+      <ul>
+        <p>
+          <a href="https://www.childwelfare.gov/" target="_blank"
+            >Child Welfare Information Gateway</a
+          >
+        </p>
+        <p>
+          <a href="https://www.netsmartz.org/" target="_blank"
+            >NetSmartz Workshop</a
+          >
+        </p>
+        <p>
+          <a href="https://www.ncpc.org/" target="_blank"
+            >National Crime Prevention Council</a
+          >
+        </p>
+      </ul>
+    </section>
+
+    <!-- Campus ORG-->
+
+    <section class="campus">
+      <h1>University of Texas at Arlington</h1>
+
+      <div class="row">
+        <div class="campus-col">
+          <img class="Maverick" src="Images/UTA2.jpg" />
+          <div class="layer">
+            <h3>UTA</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img class="hack" src="Images/hackuta23.jpg" />
+          <div class="layer">
+            <h3>HACKUTA23</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img class="image" src="Images/ACMlogo5.jpg" />
+          <div class="layer">
+            <h3>ACM</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contacts-->
+    <section class="Contacts" id="Contacts">
+      <h1>Contact Us On</h1>
+      <p>
+        If you have any questions regarding need of assistance and guidance,
+        contact us
+      </p>
+      <address>
+        Email:
+        <a href="mailto:contact@childsafetyassistance.com"
+          >contact@childsafetyassistance.com</a
+        >
+        <br />
+        Phone: (123) 456-7890
+      </address>
+
+      <div class="row">
+        <div class="Contacts-col">
+          <img src="Images/jaam_service_qr.png" />
+          <h3>View us on Instagram</h3>
+        </div>
+        <div class="Contacts-col">
+          <img src="Images/discordlogo.jpg" />
+          <h3>Discord</h3>
+          <p class="dicordalign">
+            <a href="https://discord.gg/jPmcYJW5" target="" _blank>
+              Follow up with our discord
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
